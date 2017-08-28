@@ -44,7 +44,7 @@ class Agent():
         self.FLAGS = flags
 
         # for dumping info about this agent 
-        self.file_dump = open("./dump/" + self.name + "_dump", 'w', 0)
+        # self.file_dump = open("./dump/" + self.name + "_dump", 'w', 0)
         
         # average net copied
         self.average_actor_net = average_actor_net
